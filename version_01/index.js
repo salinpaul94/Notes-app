@@ -35,6 +35,10 @@ notesContainer.addEventListener("click", function (e) {
   }
 })
 
-
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+  }
+})
 
 window.addEventListener("DOMContentLoaded", showNotes());
