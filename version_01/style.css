@@ -22,3 +22,7 @@
 .container h1 img{
   width: 70px;
 }
+.container button img{
+  width: 30px;
+  margin-right: 10px;
+}
