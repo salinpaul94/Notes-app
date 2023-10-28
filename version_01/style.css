@@ -53,3 +53,10 @@
   font-size: 20px;
   font-weight: 600;
 }
+.input-box img{
+  width: 25px;
+  position: absolute;
+  bottom:15px;
+  right: 15px;
+  cursor: pointer
+}
